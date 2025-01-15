@@ -1,25 +1,40 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
-  margin-top: 15px;
-  text-align: center;
+body {
+  background-color: #41b3a3;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
 ul {
-  margin-top: 10px;
   text-align: center;
   list-style-type: none;
 }
 
 ul li a {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 
 ul li a:hover {
   text-decoration: underline;
+}
+
+.container {
+  background-color: #e27d60;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  width: 400px;
+  height: auto;
+  margin: 15px auto;
+  padding: 10px;
 }
